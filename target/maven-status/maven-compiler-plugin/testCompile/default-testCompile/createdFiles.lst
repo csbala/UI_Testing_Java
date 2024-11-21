@@ -1,0 +1,6 @@
+pageobjects\HomePage.class
+stepdefinitions\StepDefinitions.class
+factory\WebDriverFactory.class
+testrunners\TestRunner.class
+hooks\Hooks.class
+pageobjects\SignInPage.class
