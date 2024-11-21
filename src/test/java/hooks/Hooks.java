@@ -15,11 +15,10 @@ public class Hooks {
 
         @Before
         public void setUp() {
-                String browser = System.getProperty("browser", "chrome");
                 boolean headless = Boolean.parseBoolean(System.getProperty("headless", "false"));
 
-                logger.info("Initializing WebDriver with browser={} and headless={}", browser, headless);
-                driver = factory.getWebDriver(browser, headless);
+                logger.info("Initializing WebDriver with headless={}", headless);
+                driver = factory.getWebDriver(headless);
         }
 
         @After

@@ -18,7 +18,7 @@ public class HomePage {
     private WebElement signUpButton;
 
     public HomePage(WebDriverFactory factory) {
-        this.driver = factory.getWebDriver(System.getProperty("browser", "chrome"),
+        this.driver = factory.getWebDriver(
                 Boolean.parseBoolean(System.getProperty("headless", "false")));
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         PageFactory.initElements(driver, this);
