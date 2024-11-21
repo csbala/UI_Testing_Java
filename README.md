@@ -1,6 +1,3 @@
-### README.md
-
-````
 # Java UI Testing with Selenium and Cucumber
 
 This repository is an example for anyone interested in Java UI testing using Selenium and Cucumber.
@@ -19,7 +16,7 @@ This repository is an example for anyone interested in Java UI testing using Sel
 ```bash
 git clone <repository-url>
 cd <repository-directory>
-````
+```
 
 2. Run the following Maven command to clean and install the project dependencies.
 
